@@ -65,13 +65,6 @@ secret is not needed: the login uses the implicit flow.
 
 Kaizen is free software under the **GNU General Public License v3.0** (see `LICENSE`).
 
-- Copyright (C) 2026 Gabriel (Snoopyzin): the Kaizen name and branding and the code and modifications
-  written for Kaizen. See `NOTICE`.
-- Kaizen is derived from **Zenshin** by hitarth-gg and contributors
-  (https://github.com/hitarth-gg/zenshin), also GPLv3. The original copyright notices are kept, as the
-  license requires.
-- Data and services used: AniList, ani.zip, AnimeTosho. Bundled tools: FFmpeg (GPL build from gyan.dev,
-  `vendor/ffmpeg/README-ffmpeg.txt`).
 
 Anyone who receives a copy of the app can get its complete source code from this repository.
 
