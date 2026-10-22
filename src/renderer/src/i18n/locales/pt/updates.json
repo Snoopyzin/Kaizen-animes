@@ -1,0 +1,21 @@
+{
+  "title": "Atualizações",
+  "installed": "Versão instalada",
+  "auto": "Verificar ao abrir o app",
+  "autoDesc": "Avisa quando houver uma versão nova (no máximo a cada poucas horas).",
+  "check": "Verificar atualizações",
+  "checking": "Verificando…",
+  "upToDate": "Você está na versão mais recente ({{version}}).",
+  "available": "Nova versão disponível: {{version}}",
+  "published": "Publicada em {{date}}",
+  "notes": "Novidades",
+  "howTo": "Feche o Kaizen e execute o instalador baixado. Seus dados e seu login são mantidos.",
+  "download": "Baixar o instalador",
+  "release": "Ver no GitHub",
+  "noRelease": "Ainda não há uma versão publicada no GitHub.",
+  "rateLimited": "O GitHub limitou as consultas por agora. Tente de novo em alguns minutos.",
+  "network": "Não foi possível falar com o GitHub. Confira sua internet.",
+  "error": "Não foi possível verificar agora. Tente de novo mais tarde.",
+  "toastTitle": "Nova versão do {{app}}: {{version}}",
+  "toastAction": "Ver"
+}

@@ -5,6 +5,7 @@ import { toast } from 'sonner'
 import { t } from '../i18n'
 import { BRAND } from '../brand'
 import AccountCard from '../auth/AccountCard'
+import UpdatesCard from '../components/UpdatesCard'
 import { AUTH_ENABLED } from '../auth/config'
 import LanguageSwitcher from '../i18n/LanguageSwitcher'
 
@@ -152,6 +153,10 @@ export default function Settings() {
             <LanguageSwitcher />
           </div>
         )}
+      </div>
+
+      <div className="mb-6">
+        <UpdatesCard />
       </div>
 
       <div className="flex flex-col gap-4 tracking-wide text-[#b5b5b5ff]">

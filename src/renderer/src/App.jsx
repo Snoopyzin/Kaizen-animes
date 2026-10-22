@@ -21,6 +21,7 @@ import Anilist from './pages/Anilist'
 import Test from './pages/Test'
 import Downloads from './pages/Downloads'
 import { LIBRARY_ENABLED } from './features'
+import useUpdateNotice from './hooks/useUpdateNotice'
 
 // import { lazy } from "react";
 
@@ -112,6 +113,9 @@ const router = createHashRouter([
 ])
 
 function App() {
+  // once per new version: a toast that leads to the settings page, where the update card is
+  useUpdateNotice(() => router.navigate('/settings'))
+
   const queryClient = new QueryClient({
     defaultOptions: {
       queries: {

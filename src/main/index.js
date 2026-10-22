@@ -23,6 +23,7 @@ import { mainT } from './i18n'
 import { resolveTool, runProcess, httpInputArgs } from './tools'
 import { PROBE_ENTRIES, buildMediaInfo, parseVtt, roundMs } from './media'
 import { createTranslator } from './translate'
+import { checkForUpdate } from './updates'
 import { registerLibrary } from './library'
 import { animepaheRouter } from './animepahe/routes/search'
 import encUrls from '../../common/utils'
@@ -1218,5 +1219,12 @@ const library = registerLibrary(app2, {
 })
 // stops running audio conversions and closes the connection pool
 app.on('before-quit', () => library.close())
+
+/* ------------------------------------------------------ */
+/* ------------------- UPDATE CHECK -------------------- */
+/* ------------------------------------------------------ */
+// "Atualizações" in the settings: asks GitHub for the latest release (read-only, nothing is installed here)
+ipcMain.handle('app:version', () => app.getVersion())
+ipcMain.handle('app:check-update', () => checkForUpdate({ current: app.getVersion() }))
 
 module.exports.extensionUrls = extensionUrls
