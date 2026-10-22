@@ -7,6 +7,14 @@ Portuguese (Brazil) or English.
 Created by **Gabriel (Snoopyzin)** - [GitHub](https://github.com/Snoopyzin) -
 [Instagram @gabriel.arm_](https://www.instagram.com/gabriel.arm_/)
 
+## Download
+
+**[Get the Windows installer (latest release)](https://github.com/Snoopyzin/Kaizen-animes/releases/latest)**:
+under "Assets" download `Kaizen-Setup-...exe` and run it. The installer is not digitally signed yet, so
+Windows SmartScreen may warn: click "More info", then "Run anyway".
+(Em português: na página acima, em "Assets", baixe o `.exe` e execute; se o Windows avisar, "Mais
+informações" e "Executar assim mesmo".) The installer is not part of the source code zip: it is a release file.
+
 ## Features
 
 - Catalog, search and your AniList list (sign in with AniList).
