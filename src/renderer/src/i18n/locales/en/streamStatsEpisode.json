@@ -1,0 +1,8 @@
+{
+  "updated": "Episode updated on AniList!",
+  "updateError": "Error updating episode on AniList!",
+  "size": "Size:",
+  "downloaded": "Downloaded:",
+  "progress": "Progress:",
+  "stop": "Stop downloading the episode"
+}

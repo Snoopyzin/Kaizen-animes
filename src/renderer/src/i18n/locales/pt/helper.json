@@ -1,0 +1,13 @@
+{
+  "rateLimitedShort": "Muitas requisições à API. Você está sendo limitado. Volte após um minuto.",
+  "rateLimited": "Muitas requisições à API. Você está sendo limitado. Aguarde um minuto e atualize a página.",
+  "rateLimitedRetry": "Muitas requisições à API. Você está sendo limitado. Aguarde um minuto e tente novamente.",
+  "noMappings": "Nenhum mapeamento encontrado para este anime.",
+  "notAuthEpisode": "Usuário não autenticado. Faça login para atualizar os dados do episódio no AniList.",
+  "notAuthStatus": "Usuário não autenticado. Faça login para atualizar o status do anime no AniList.",
+  "mappingFetchFailed": "Não foi possível buscar o mapeamento deste anime.",
+  "mappingHttpError": "Erro {{status}} ao buscar o mapeamento deste anime.",
+  "httpError": "Erro {{status}}: {{statusText}} - {{message}}",
+  "anilistDown": "O AniList, que fornece o catálogo de animes, está fora do ar no momento. Não é um problema do Kaizen: tente de novo mais tarde.",
+  "fetchAnimeFailed": "Falha ao buscar os dados do anime"
+}

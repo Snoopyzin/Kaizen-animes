@@ -1,0 +1,9 @@
+{
+  "title": "Follow the creator to unlock Kaizen",
+  "body": "Kaizen is an independent project. To unlock access, follow {{handle}} on Instagram: it helps the project keep going.",
+  "open": "Open {{handle}} on Instagram",
+  "openFirst": "Open Instagram and follow the profile to enable the button.",
+  "wait": "Wait {{seconds}} s to continue…",
+  "confirm": "I followed, continue",
+  "privacy": "Kaizen does not access your Instagram account: the link only opens the profile in your browser. This screen appears once."
+}

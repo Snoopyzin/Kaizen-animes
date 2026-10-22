@@ -1,0 +1,22 @@
+Kaizen
+Copyright (C) 2026 Gabriel (Snoopyzin) <https://github.com/Snoopyzin>
+
+This notice covers the name and branding "Kaizen" and all code and modifications written for Kaizen
+(see the git history for who wrote what).
+
+Kaizen is derived from Zenshin
+Copyright (C) the Zenshin authors and contributors, led by hitarth-gg
+<https://github.com/hitarth-gg/zenshin>
+The original copyright notices are kept in this project, as the license requires.
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU
+General Public License as published by the Free Software Foundation, version 3 of the License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even
+the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public
+License (the LICENSE file) for more details.
+
+Bundled and third-party software
+- FFmpeg (ffmpeg.exe, ffprobe.exe, shipped inside the Windows installer), GPL v3 build from gyan.dev.
+  License: vendor/ffmpeg/LICENSE-ffmpeg.txt. Build information and source: vendor/ffmpeg/README-ffmpeg.txt.
+- The npm packages listed in package.json / package-lock.json, each under its own license.

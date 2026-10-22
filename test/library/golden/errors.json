@@ -1,0 +1,188 @@
+{
+  "wrongPassword": {
+    "status": 401,
+    "headers": {
+      "content-type": "text/plain"
+    },
+    "body": "Error processing request."
+  },
+  "unknownUser": {
+    "status": 401,
+    "headers": {
+      "content-type": "text/plain"
+    },
+    "body": "Error processing request."
+  },
+  "badToken": {
+    "status": 401,
+    "headers": {
+      "content-length": "0"
+    },
+    "body": ""
+  },
+  "noToken": {
+    "status": 401,
+    "headers": {
+      "content-length": "0"
+    },
+    "body": ""
+  },
+  "legacyTokenHeader": {
+    "status": 401
+  },
+  "apiKeyQuery": {
+    "status": 401
+  },
+  "subtitleNotASubtitle": {
+    "status": 500,
+    "headers": {
+      "content-type": "text/plain"
+    },
+    "body": "Error processing request."
+  },
+  "subtitleUnknownItem": {
+    "status": 400,
+    "headers": {
+      "content-type": "text/plain"
+    },
+    "body": "Error processing request."
+  },
+  "unknownIds": {
+    "Items": [],
+    "TotalRecordCount": 0,
+    "StartIndex": 0
+  },
+  "imageResults": {
+    "primary": {
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "3761",
+        "last-modified": "Tue, 20 Oct 2026 19:39:44 GMT",
+        "cache-control": "public"
+      },
+      "body": "<image bytes>"
+    },
+    "backdrop": {
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "27316",
+        "last-modified": "Tue, 20 Oct 2026 19:39:44 GMT",
+        "cache-control": "public"
+      },
+      "body": "<image bytes>"
+    },
+    "thumbMissing": {
+      "status": 404,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body": "\"Test Movie does not have an image of type Thumb\""
+    },
+    "noImageItem": {
+      "status": 404,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body": "\"Second Movie (2018) does not have an image of type Primary\""
+    },
+    "badType": {
+      "status": 400,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body": "{\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.1\",\"title\":\"One or more validation errors occurred.\",\"status\":400,\"errors\":{\"imageType\":[\"The value \\u0027Nonsense\\u0027 is not valid.\"]},\"traceId\":\"00-3ba760e6b9a26d3d1eb40784a138dfc2-c7db8ba6be5b3d62-00\"}"
+    },
+    "unknownItem": {
+      "status": 404,
+      "headers": {
+        "content-type": "application/json; charset=utf-8"
+      },
+      "body": "{\"type\":\"https://tools.ietf.org/html/rfc9110#section-15.5.5\",\"title\":\"Not Found\",\"status\":404,\"traceId\":\"00-bde0ceb5c715fd55c9b5346873ab6d4e-abe7bfc937a24bdd-00\"}"
+    }
+  },
+  "streamHeaders": {
+    "head": {
+      "status": 200,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "full": {
+      "status": 200,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "range": {
+      "status": 206,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "100",
+        "content-range": "bytes 0-99/11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "openRange": {
+      "status": 206,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "11929190",
+        "content-range": "bytes 100-11929289/11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "suffixRange": {
+      "status": 206,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "50",
+        "content-range": "bytes 11929240-11929289/11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "beyond": {
+      "status": 416,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "0",
+        "content-range": "bytes */11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "invalid": {
+      "status": 200,
+      "headers": {
+        "content-type": "video/x-matroska",
+        "content-length": "11929290",
+        "accept-ranges": "bytes",
+        "last-modified": "Tue, 20 Oct 2026 19:20:50 GMT"
+      },
+      "body": ""
+    },
+    "unknownItem": {
+      "status": 404,
+      "headers": {
+        "content-type": "text/plain"
+      },
+      "body": ""
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "updated": "AniList updated",
+  "statusUpdated": "Anime status updated to {{status}}",
+  "updateFailed": "AniList update failed",
+  "invalidEpisode": "Invalid episode number",
+  "addToAniList": "Add to AniList"
+}

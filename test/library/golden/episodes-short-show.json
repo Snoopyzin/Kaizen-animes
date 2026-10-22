@@ -1,0 +1,66 @@
+{
+  "Items": [
+    {
+      "Name": "Short Show S01E01",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "581b17e995a30ffbb5c1bc1cdb6dfa96",
+      "HasSubtitles": true,
+      "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "ChannelId": null,
+      "RunTimeTicks": 100000000,
+      "IndexNumber": 1,
+      "ParentIndexNumber": 1,
+      "IsFolder": false,
+      "Type": "Episode",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "581b17e9-95a3-0ffb-b5c1-bc1cdb6dfa96",
+        "ItemId": "581b17e995a30ffbb5c1bc1cdb6dfa96"
+      },
+      "SeriesName": "Short Show",
+      "SeriesId": "46db2d141f989ff25d72ae18fb846e37",
+      "SeasonId": "0760f4985fe1e414d36624949ba852b3",
+      "SeasonName": "Season 1",
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    },
+    {
+      "Name": "Short Show S01E02",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "319b2d28cc437f8a362adc0043065824",
+      "HasSubtitles": true,
+      "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "ChannelId": null,
+      "RunTimeTicks": 100000000,
+      "IndexNumber": 2,
+      "ParentIndexNumber": 1,
+      "IsFolder": false,
+      "Type": "Episode",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "319b2d28-cc43-7f8a-362a-dc0043065824",
+        "ItemId": "319b2d28cc437f8a362adc0043065824"
+      },
+      "SeriesName": "Short Show",
+      "SeriesId": "46db2d141f989ff25d72ae18fb846e37",
+      "SeasonId": "0760f4985fe1e414d36624949ba852b3",
+      "SeasonName": "Season 1",
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    }
+  ],
+  "TotalRecordCount": 2,
+  "StartIndex": 0
+}

@@ -1,0 +1,8 @@
+{
+  "discordWatching": "Watching Episode {{episode}}",
+  "watched": "Watched",
+  "episode": "Episode. {{episode}}",
+  "fetchError": "Error fetching episodes",
+  "noEpisodes": "No episodes found",
+  "openInBrowser": "Open Stream in Browser"
+}

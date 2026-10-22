@@ -1,0 +1,22 @@
+# dependencies and build output
+node_modules
+dist
+out
+.DS_Store
+*.log*
+downloads
+.vscode
+
+# never commit secrets or local configuration
+.env
+.env.*
+!.env.example
+
+# data the app writes in Documents/Kaizen (keys, cookies, sessions): keep them out even if copied here
+/settings.json
+/cookies.json
+/library*.json
+/library-cache
+
+# the ffmpeg binaries (over GitHub's 100 MB limit): see vendor/ffmpeg/PLACE-BINARIES-HERE.md
+vendor/ffmpeg/*.exe

@@ -1,0 +1,167 @@
+{
+  "Items": [
+    {
+      "Name": "Cover Movie (2023)",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "49b516a607dfa3db0e3182761701648d",
+      "DateCreated": "2026-10-20T19:20:51.0886532Z",
+      "HasSubtitles": true,
+      "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "ChannelId": null,
+      "Genres": [],
+      "RunTimeTicks": 100000000,
+      "ProductionYear": 2023,
+      "IsFolder": false,
+      "Type": "Movie",
+      "GenreItems": [],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "49b516a6-07df-a3db-0e31-82761701648d",
+        "ItemId": "49b516a607dfa3db0e3182761701648d"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "LocationType": "FileSystem",
+      "MediaType": "Video",
+      "Width": 320,
+      "Height": 180
+    },
+    {
+      "Name": "Hevc Movie (2019)",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "1ebad6051c3dd58721dbc3a6891c03a4",
+      "DateCreated": "2026-10-20T19:20:50.6298923Z",
+      "Container": "mkv",
+      "ChannelId": null,
+      "Genres": [],
+      "RunTimeTicks": 80210000,
+      "ProductionYear": 2019,
+      "IsFolder": false,
+      "Type": "Movie",
+      "GenreItems": [],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "1ebad605-1c3d-d587-21db-c3a6891c03a4",
+        "ItemId": "1ebad6051c3dd58721dbc3a6891c03a4"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "LocationType": "FileSystem",
+      "MediaType": "Video",
+      "Width": 320,
+      "Height": 180
+    },
+    {
+      "Name": "Odd Layout (2022)",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "4c87041a3ba32e7436d968824b65d784",
+      "DateCreated": "2026-10-20T19:20:50.8206186Z",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "ChannelId": null,
+      "Genres": [],
+      "RunTimeTicks": 200210000,
+      "ProductionYear": 2022,
+      "IsFolder": false,
+      "Type": "Movie",
+      "GenreItems": [],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "4c87041a-3ba3-2e74-36d9-68824b65d784",
+        "ItemId": "4c87041a3ba32e7436d968824b65d784"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "LocationType": "FileSystem",
+      "MediaType": "Video",
+      "Width": 320,
+      "Height": 180
+    },
+    {
+      "Name": "Second Movie (2018)",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "3fd5ee38bb2a56c4fb6f012ecf0af4da",
+      "DateCreated": "2026-10-20T19:20:50.4504558Z",
+      "HasSubtitles": true,
+      "Container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "ChannelId": null,
+      "Genres": [],
+      "RunTimeTicks": 120000000,
+      "ProductionYear": 2018,
+      "IsFolder": false,
+      "Type": "Movie",
+      "GenreItems": [],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "3fd5ee38-bb2a-56c4-fb6f-012ecf0af4da",
+        "ItemId": "3fd5ee38bb2a56c4fb6f012ecf0af4da"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "LocationType": "FileSystem",
+      "MediaType": "Video",
+      "Width": 320,
+      "Height": 180
+    },
+    {
+      "Name": "Test Movie",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "43f9fd2bbf55a40e1bf2de36cc27f485",
+      "DateCreated": "2026-10-20T19:20:48.0251575Z",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "PremiereDate": "2020-05-01T00:00:00.0000000Z",
+      "OfficialRating": "PG-13",
+      "ChannelId": null,
+      "Genres": [
+        "Drama",
+        "Science Fiction"
+      ],
+      "CommunityRating": 7.8,
+      "RunTimeTicks": 3100210000,
+      "ProductionYear": 2020,
+      "IsFolder": false,
+      "Type": "Movie",
+      "GenreItems": [
+        {
+          "Name": "Drama",
+          "Id": "090eac6e9de4fe1fbc194e5b96691277"
+        },
+        {
+          "Name": "Science Fiction",
+          "Id": "0430d514c35e1f158fa93f1eeb8361ea"
+        }
+      ],
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "43f9fd2b-bf55-a40e-1bf2-de36cc27f485",
+        "ItemId": "43f9fd2bbf55a40e1bf2de36cc27f485"
+      },
+      "VideoType": "VideoFile",
+      "ImageTags": {
+        "Primary": "4c5e1e545477795e32547b12d523872c"
+      },
+      "LocationType": "FileSystem",
+      "MediaType": "Video",
+      "Width": 320,
+      "Height": 180
+    }
+  ],
+  "TotalRecordCount": 5,
+  "StartIndex": 0
+}

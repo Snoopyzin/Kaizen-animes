@@ -1,0 +1,13 @@
+{
+  "recentActivityError": "Erro ao buscar atividade recente",
+  "topAnimeError": "Erro ao buscar os melhores animes",
+  "tagline": "Um gerenciador de lista de animes para desktop com recursos de streaming de mídia.",
+  "continueWatching": "Continuar assistindo",
+  "airing": "Animes em exibição",
+  "topAnime": "Melhores animes",
+  "loading": "Carregando...",
+  "airingError": "Falha ao buscar os animes em exibição: {{message}}",
+  "topAnimeFetchError": "Falha ao buscar os melhores animes: {{message}}",
+  "episodes": "{{count}} episódios",
+  "carouselStatus": "{{current}} de {{total}}"
+}

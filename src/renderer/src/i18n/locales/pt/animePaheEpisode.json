@@ -1,0 +1,8 @@
+{
+  "discordWatching": "Assistindo ao episódio {{episode}}",
+  "watched": "Assistido",
+  "episode": "Episódio. {{episode}}",
+  "fetchError": "Erro ao buscar episódios",
+  "noEpisodes": "Nenhum episódio encontrado",
+  "openInBrowser": "Abrir stream no navegador"
+}

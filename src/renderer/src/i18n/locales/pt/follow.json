@@ -1,0 +1,9 @@
+{
+  "title": "Siga o criador para liberar o Kaizen",
+  "body": "O Kaizen é um projeto independente. Para liberar o acesso, siga {{handle}} no Instagram: isso ajuda o projeto a continuar.",
+  "open": "Abrir {{handle}} no Instagram",
+  "openFirst": "Abra o Instagram e siga o perfil para liberar o botão.",
+  "wait": "Aguarde {{seconds}} s para continuar…",
+  "confirm": "Já segui, continuar",
+  "privacy": "O Kaizen não acessa a sua conta do Instagram: o link só abre o perfil no navegador. Esta tela aparece uma vez."
+}

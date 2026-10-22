@@ -1,0 +1,10 @@
+{
+  "size": "Tamanho:",
+  "downloaded": "Baixado:",
+  "uploaded": "Enviado:",
+  "downloadSpeed": "Velocidade de download:",
+  "uploadSpeed": "Velocidade de upload:",
+  "progress": "Progresso:",
+  "ratio": "Taxa:",
+  "peers": "Peers:"
+}

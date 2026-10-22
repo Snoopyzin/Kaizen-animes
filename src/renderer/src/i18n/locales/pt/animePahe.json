@@ -1,0 +1,12 @@
+{
+  "fetchLatestError": "Erro ao buscar os últimos episódios do AnimePahe",
+  "refreshCookiesToast": "Atualize os cookies do AnimePahe e recarregue a página",
+  "fetchFailed": "Falha ao buscar os animes em destaque",
+  "cookiesHelpBefore": "Atualize os cookies do AnimePahe usando o webview clicando no botão abaixo; depois que o AnimePahe carregar por completo, feche o webview e",
+  "cookiesHelpRestart": "reinicie",
+  "cookiesHelpAfter": "o aplicativo.",
+  "latestReleases": "Últimos lançamentos do AnimePahe:",
+  "refreshCookies": "Atualizar cookies do AnimePahe",
+  "useWebview": "Clique em \"Atualizar cookies do AnimePahe\", aguarde o site carregar por completo e feche a janela.",
+  "noCookies": "Os cookies do AnimePahe ainda não foram gerados. Clique em \"Atualizar cookies do AnimePahe\"."
+}

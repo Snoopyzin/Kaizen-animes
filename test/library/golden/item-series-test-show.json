@@ -1,0 +1,51 @@
+{
+  "Name": "Test Show",
+  "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+  "Id": "96911d3a53fc2ef5c090d5c3342da3ba",
+  "DateCreated": "2026-10-20T19:21:10.3445471Z",
+  "PremiereDate": "2015-01-01T00:00:00.0000000Z",
+  "Path": "/media/Shows/Test Show (2015)",
+  "OfficialRating": "TV-14",
+  "ChannelId": null,
+  "Overview": "A generated show used to test the Kaizen library backend.",
+  "Genres": [
+    "Drama",
+    "Mystery"
+  ],
+  "CommunityRating": 8.4,
+  "ProductionYear": 2015,
+  "IsFolder": true,
+  "Type": "Series",
+  "GenreItems": [
+    {
+      "Name": "Drama",
+      "Id": "090eac6e9de4fe1fbc194e5b96691277"
+    },
+    {
+      "Name": "Mystery",
+      "Id": "d3a0ead52489743e5a68704142092c71"
+    }
+  ],
+  "UserData": {
+    "PlayedPercentage": 0,
+    "UnplayedItemCount": 5,
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false,
+    "Key": "96911d3a-53fc-2ef5-c090-d5c3342da3ba",
+    "ItemId": "96911d3a53fc2ef5c090d5c3342da3ba"
+  },
+  "RecursiveItemCount": 5,
+  "ChildCount": 3,
+  "Status": "Continuing",
+  "AirDays": [],
+  "ImageTags": {
+    "Primary": "adbcdd74331733f6c2813f27c53e8160"
+  },
+  "BackdropImageTags": [
+    "ad83ed7b932b2d9d9955a516c8c6884c"
+  ],
+  "LocationType": "FileSystem",
+  "MediaType": "Unknown"
+}

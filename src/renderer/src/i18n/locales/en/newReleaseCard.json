@@ -1,0 +1,7 @@
+{
+  "secondsAgo": "{{count}} seconds ago",
+  "minutesAgo": "{{count}} minutes ago",
+  "hoursAgo": "{{count}} hours ago",
+  "episodeImageAlt": "episode image",
+  "episode": "Episode {{number}}"
+}

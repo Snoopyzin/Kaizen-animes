@@ -1,0 +1,30 @@
+{
+  "Name": "Short Show",
+  "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+  "Id": "46db2d141f989ff25d72ae18fb846e37",
+  "DateCreated": "2026-10-20T19:21:10.3401355Z",
+  "Path": "/media/Shows/Short Show (2020)",
+  "ChannelId": null,
+  "Genres": [],
+  "ProductionYear": 2020,
+  "IsFolder": true,
+  "Type": "Series",
+  "GenreItems": [],
+  "UserData": {
+    "PlayedPercentage": 0,
+    "UnplayedItemCount": 2,
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false,
+    "Key": "46db2d14-1f98-9ff2-5d72-ae18fb846e37",
+    "ItemId": "46db2d141f989ff25d72ae18fb846e37"
+  },
+  "RecursiveItemCount": 2,
+  "ChildCount": 1,
+  "AirDays": [],
+  "ImageTags": {},
+  "BackdropImageTags": [],
+  "LocationType": "FileSystem",
+  "MediaType": "Unknown"
+}

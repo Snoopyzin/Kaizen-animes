@@ -1,0 +1,9 @@
+{
+  "title": "Downloads",
+  "goToAnime": "Go to anime page.",
+  "goToPlayer": "Go to player.",
+  "metadataOnly": "Only metadata is available for this anime.",
+  "completed": "{{percent}}% completed",
+  "downloaded": "{{size}} Downloaded",
+  "uploaded": "{{size}} Uploaded"
+}

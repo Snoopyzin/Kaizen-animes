@@ -1,0 +1,17 @@
+{
+  "backendRunning": "O backend está em execução",
+  "backendRunningDesc": "O backend está em execução na sua máquina local: {{port}} - {{mainPort}}",
+  "backendNotRunning": "O backend não está em execução",
+  "backendNotRunningDesc": "O backend não está em execução na sua máquina local: {{port}} - {{mainPort}}",
+  "profileError": "Erro ao buscar o perfil do AniList",
+  "new": "Novos",
+  "animepaheAlt": "pikacon",
+  "avatarAlt": "avatar",
+  "anonymous": "anônimo",
+  "testBackend": "Testar Backend",
+  "downloads": "Downloads",
+  "settings": "Configurações",
+  "logout": "Sair",
+  "loginAniList": "Entrar com AniList",
+  "library": "Biblioteca"
+}

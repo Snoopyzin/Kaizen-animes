@@ -1,0 +1,39 @@
+{
+  "Items": [
+    {
+      "Name": "Pilot",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "69dadc69802df194b0ad7c63ac544ab2",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "PremiereDate": "2015-01-01T00:00:00.0000000Z",
+      "ChannelId": null,
+      "RunTimeTicks": 3100210000,
+      "ProductionYear": 2015,
+      "IndexNumber": 1,
+      "ParentIndexNumber": 1,
+      "IsFolder": false,
+      "Type": "Episode",
+      "UserData": {
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 1,
+        "IsFavorite": false,
+        "LastPlayedDate": "2026-10-20T19:47:07.2792033Z",
+        "Played": true,
+        "Key": "69dadc69-802d-f194-b0ad-7c63ac544ab2",
+        "ItemId": "69dadc69802df194b0ad7c63ac544ab2"
+      },
+      "SeriesName": "Test Show",
+      "SeriesId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "SeasonId": "c3fc5cb063c8abab69dfa41dc973ea8e",
+      "PrimaryImageAspectRatio": 0.6666666666666666,
+      "SeriesPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "SeasonName": "Season 1",
+      "VideoType": "VideoFile",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    }
+  ],
+  "TotalRecordCount": 1,
+  "StartIndex": 0
+}

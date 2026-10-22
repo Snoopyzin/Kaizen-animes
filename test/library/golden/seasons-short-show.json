@@ -1,0 +1,31 @@
+{
+  "Items": [
+    {
+      "Name": "Season 1",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "0760f4985fe1e414d36624949ba852b3",
+      "ChannelId": null,
+      "IndexNumber": 1,
+      "IsFolder": true,
+      "Type": "Season",
+      "UserData": {
+        "PlayedPercentage": 0,
+        "UnplayedItemCount": 2,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "46db2d14-1f98-9ff2-5d72-ae18fb846e37001",
+        "ItemId": "0760f4985fe1e414d36624949ba852b3"
+      },
+      "SeriesName": "Short Show",
+      "SeriesId": "46db2d141f989ff25d72ae18fb846e37",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    }
+  ],
+  "TotalRecordCount": 1,
+  "StartIndex": 0
+}

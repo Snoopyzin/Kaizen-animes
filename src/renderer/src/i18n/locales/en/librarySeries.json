@@ -1,0 +1,58 @@
+{
+  "back": "Library",
+  "rating": "rating",
+  "episodes": "Episodes",
+  "noEpisodes": "No episodes found",
+  "noEpisodesText": "Refresh the library after Jellyfin finishes cataloguing this series.",
+  "status.continuing": "Ongoing",
+  "status.ended": "Ended",
+  "counts.watched": "{{watched}} of {{total}} watched",
+
+  "action.start": "Start watching",
+  "action.continue": "Continue {{label}}",
+  "action.resume": "Continue",
+  "action.continueFrom": "Continue {{label}} from {{time}}",
+  "action.again": "Watch again from the start",
+  "markAll": "Mark everything as watched",
+  "unmarkAll": "Mark everything as unwatched",
+
+  "season.label": "Seasons",
+  "season.n": "Season {{n}}",
+  "season.specials": "Specials",
+
+  "episode.next": "Up next",
+  "episode.untitled": "Untitled episode",
+  "episode.play": "Watch {{title}}",
+  "episode.playShort": "Watch",
+
+  "watched.watched": "Watched",
+  "watched.unwatched": "Unwatched",
+  "watched.markWatched": "Mark {{title}} as watched",
+  "watched.markUnwatched": "Mark {{title}} as unwatched",
+
+  "overview.none": "No synopsis.",
+  "overview.more": "Read more",
+  "overview.less": "Show less",
+  "overview.translating": "Translating the synopsis…",
+  "overview.auto": "Synopsis translated automatically.",
+  "overview.original": "Original synopsis.",
+  "overview.showOriginal": "Show original",
+  "overview.showTranslation": "Show translation",
+
+  "unsupportedNote": "This file will probably need the external player.",
+  "movie.watch": "Watch",
+  "movie.again": "Watch again",
+  "movie.continueFrom": "Continue from {{time}}",
+  "movie.fromStart": "Watch from the start",
+  "movie.markWatched": "Mark as watched",
+  "movie.markUnwatched": "Mark as unwatched",
+
+  "details.duration": "Duration",
+  "details.resolution": "Resolution",
+  "details.video": "Video",
+  "details.audio": "Audio",
+  "details.subtitles": "Subtitles",
+  "details.size": "Size",
+  "details.file": "File",
+  "details.none": "None"
+}

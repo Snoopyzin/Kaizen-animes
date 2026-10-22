@@ -1,0 +1,5 @@
+{
+  "progress": "Episode: {{progress}} / {{total}}",
+  "nextEpisode": "Episode {{episode}} : {{date}}",
+  "airingDateFormat": "dd-LLL-yyyy hh:mm a"
+}

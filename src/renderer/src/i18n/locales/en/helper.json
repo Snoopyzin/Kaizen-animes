@@ -1,0 +1,13 @@
+{
+  "rateLimitedShort": "Too many requests to the API. You are being rate-limited. Please come back after a minute.",
+  "rateLimited": "Too many requests to the API. You are being rate-limited. Please wait a minute and refresh the page.",
+  "rateLimitedRetry": "Too many requests to the API. You are being rate-limited. Please wait a minute and try again.",
+  "noMappings": "No mappings found for this anime.",
+  "notAuthEpisode": "User is not authenticated. Please log in to update episode data on AniList.",
+  "notAuthStatus": "User is not authenticated. Please log in to update anime status on AniList.",
+  "mappingFetchFailed": "Could not fetch the mapping for this anime.",
+  "mappingHttpError": "Error {{status}} while fetching the mapping for this anime.",
+  "httpError": "Error {{status}}: {{statusText}} - {{message}}",
+  "anilistDown": "AniList, the service that provides the anime catalog, is down right now. It is not a Kaizen problem: please try again later.",
+  "fetchAnimeFailed": "Failed to fetch anime data"
+}

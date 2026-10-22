@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------ CUSTOM SCROLL BAR ----------------- */
+/* Apply custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; /* Scrollbar width */
+  height: 7px; /* Scrollbar height */
+}
+
+/* Scrollbar track */
+::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 2.8rem;
+}
+
+/* Scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a; /* Thumb color */
+  border-radius: 0px; /* Thumb border-radius */
+}
+
+/* Scrollbar thumb states */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Hover thumb color */
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #444; /* Active thumb color */
+}
+/* ------------------------------------------------------ */
+
+.draggable {
+  -webkit-app-region: drag;
+}
+.nodrag {
+  -webkit-app-region: no-drag;
+}
+
+/* For blur mask of banner image */
+.mask {
+  -webkit-mask: -webkit-gradient(
+    linear,
+    left top,
+    /* Start point of the gradient */ right top,
+    /* End point of the gradient */ from(rgba(0, 0, 0, 1)),
+    /* Fully opaque at the left */ to(rgba(0, 0, 0, 0)) /* Fully transparent at the right */
+  );
+  mask: linear-gradient(to right, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 60%);
+}
+
+.skew3d {
+  transform: matrix(1, 0, -0.05, 1, 0, 0);
+}
+
+.tripp {
+  mask-image: linear-gradient(to bottom, transparent, black 10%, black 90%, transparent);
+}
+
+.stroke-text {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.086); /* Stroke width and color */
+  color: transparent; /* Text fill color */
+}
+
+/* -------------- FOR PLYR LOADING SPINNER -------------- */
+.plyr.plyr--loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 40px; /* Adjust size of the spinner */
+  height: 40px; /* Adjust size of the spinner */
+  border: 5px solid transparent; /* Create border for spinner */
+  border-top: 5px solid #ffffff; /* Color of the spinner */
+  border-radius: 50%; /* Make it circular */
+  animation: spin 1s linear infinite; /* Spin animation */
+  transform: translate(-50%, -50%); /* Center the spinner */
+  z-index: 10;
+}
+
+/* Keyframes for spinning animation */
+@keyframes spin {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+/* ------------------------------------------------------ */
+.plyr audio,
+.plyr iframe,
+.plyr video {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+/* * {
+  outline: 1px solid #f00;
+  &:hover {
+    outline: 2px solid #f00;
+  }
+} */

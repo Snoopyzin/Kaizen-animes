@@ -1,0 +1,58 @@
+{
+  "back": "Biblioteca",
+  "rating": "nota",
+  "episodes": "Episódios",
+  "noEpisodes": "Nenhum episódio encontrado",
+  "noEpisodesText": "Atualize a biblioteca depois que o Jellyfin terminar de catalogar esta série.",
+  "status.continuing": "Em exibição",
+  "status.ended": "Finalizada",
+  "counts.watched": "{{watched}} de {{total}} assistidos",
+
+  "action.start": "Começar",
+  "action.continue": "Continuar {{label}}",
+  "action.resume": "Continuar",
+  "action.continueFrom": "Continuar {{label}} de {{time}}",
+  "action.again": "Assistir de novo desde o início",
+  "markAll": "Marcar tudo como assistido",
+  "unmarkAll": "Marcar tudo como não assistido",
+
+  "season.label": "Temporadas",
+  "season.n": "Temporada {{n}}",
+  "season.specials": "Especiais",
+
+  "episode.next": "Próximo",
+  "episode.untitled": "Episódio sem título",
+  "episode.play": "Assistir {{title}}",
+  "episode.playShort": "Assistir",
+
+  "watched.watched": "Assistido",
+  "watched.unwatched": "Não assistido",
+  "watched.markWatched": "Marcar {{title}} como assistido",
+  "watched.markUnwatched": "Marcar {{title}} como não assistido",
+
+  "overview.none": "Sem sinopse.",
+  "overview.more": "Ler mais",
+  "overview.less": "Mostrar menos",
+  "overview.translating": "Traduzindo a sinopse…",
+  "overview.auto": "Sinopse traduzida automaticamente.",
+  "overview.original": "Sinopse original.",
+  "overview.showOriginal": "Ver original",
+  "overview.showTranslation": "Ver tradução",
+
+  "unsupportedNote": "Este arquivo provavelmente vai precisar do player externo.",
+  "movie.watch": "Assistir",
+  "movie.again": "Assistir de novo",
+  "movie.continueFrom": "Continuar de {{time}}",
+  "movie.fromStart": "Assistir do início",
+  "movie.markWatched": "Marcar como assistido",
+  "movie.markUnwatched": "Marcar como não assistido",
+
+  "details.duration": "Duração",
+  "details.resolution": "Resolução",
+  "details.video": "Vídeo",
+  "details.audio": "Áudio",
+  "details.subtitles": "Legendas",
+  "details.size": "Tamanho",
+  "details.file": "Arquivo",
+  "details.none": "Nenhum"
+}

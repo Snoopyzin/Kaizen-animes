@@ -1,0 +1,17 @@
+{
+  "backendRunning": "Backend is running",
+  "backendRunningDesc": "Backend is running on your local machine: {{port}} - {{mainPort}}",
+  "backendNotRunning": "Backend is not running",
+  "backendNotRunningDesc": "Backend is not running on your local machine: {{port}} - {{mainPort}}",
+  "profileError": "Error fetching AniList Profile",
+  "new": "New",
+  "animepaheAlt": "pikacon",
+  "avatarAlt": "avatar",
+  "anonymous": "anonymous",
+  "testBackend": "Ping Backend",
+  "downloads": "Downloads",
+  "settings": "Settings",
+  "logout": "Logout",
+  "loginAniList": "Login With AniList",
+  "library": "Library"
+}

@@ -1,0 +1,7 @@
+{
+  "planningToWatch": "Planejando assistir",
+  "eps": "{{count}} eps",
+  "nextEpisode": "Episódio {{episode}} : {{date}}",
+  "airingDateFormat": "dd-LLL-yyyy HH:mm",
+  "trailer": "Trailer"
+}

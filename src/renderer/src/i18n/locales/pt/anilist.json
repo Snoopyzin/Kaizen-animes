@@ -1,0 +1,17 @@
+{
+  "any": "Qualquer",
+  "searchPlaceholder": "Buscar anime",
+  "year": "Ano",
+  "genre": "GÊNERO",
+  "format": "FORMATO",
+  "season": "TEMPORADA",
+  "status": "STATUS",
+  "sortBy": "ORDENAR",
+  "myStatus": "MEU STATUS",
+  "sort.POPULARITY_DESC": "Popularidade",
+  "sort.SCORE_DESC": "Nota",
+  "sort.TRENDING_DESC": "Em alta",
+  "fetchError": "Falha ao buscar os melhores animes: {{message}}",
+  "notFoundTitle": "Nenhum anime encontrado!",
+  "notFoundText": "Tem certeza de que digitou o título correto?"
+}

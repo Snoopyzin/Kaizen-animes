@@ -1,0 +1,8 @@
+{
+  "placeholder": "Manually search for anime...",
+  "searching": "Searching...",
+  "seeders": "{{count}} seeders",
+  "leechers": "{{count}} leechers",
+  "downloads": "{{count}} downloads",
+  "noResults": "No results found"
+}

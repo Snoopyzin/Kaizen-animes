@@ -1,0 +1,99 @@
+{
+  "Items": [
+    {
+      "Name": "Specials",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "394ce1ea54a8ad7265f86158468c78d7",
+      "ChannelId": null,
+      "IndexNumber": 0,
+      "IsFolder": true,
+      "Type": "Season",
+      "ParentBackdropItemId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "ParentBackdropImageTags": [
+        "ad83ed7b932b2d9d9955a516c8c6884c"
+      ],
+      "UserData": {
+        "PlayedPercentage": 0,
+        "UnplayedItemCount": 1,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "96911d3a-53fc-2ef5-c090-d5c3342da3ba000",
+        "ItemId": "394ce1ea54a8ad7265f86158468c78d7"
+      },
+      "SeriesName": "Test Show",
+      "SeriesId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "PrimaryImageAspectRatio": 0.6666666666666666,
+      "SeriesPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Season 1",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "c3fc5cb063c8abab69dfa41dc973ea8e",
+      "ChannelId": null,
+      "IndexNumber": 1,
+      "IsFolder": true,
+      "Type": "Season",
+      "ParentBackdropItemId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "ParentBackdropImageTags": [
+        "ad83ed7b932b2d9d9955a516c8c6884c"
+      ],
+      "UserData": {
+        "PlayedPercentage": 33.33333333333333,
+        "UnplayedItemCount": 2,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "96911d3a-53fc-2ef5-c090-d5c3342da3ba001",
+        "ItemId": "c3fc5cb063c8abab69dfa41dc973ea8e"
+      },
+      "SeriesName": "Test Show",
+      "SeriesId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "PrimaryImageAspectRatio": 0.6666666666666666,
+      "SeriesPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    },
+    {
+      "Name": "Season 2",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "9cd17aa6f1c7ab8d99c4612bd715036e",
+      "ChannelId": null,
+      "IndexNumber": 2,
+      "IsFolder": true,
+      "Type": "Season",
+      "ParentBackdropItemId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "ParentBackdropImageTags": [
+        "ad83ed7b932b2d9d9955a516c8c6884c"
+      ],
+      "UserData": {
+        "PlayedPercentage": 0,
+        "UnplayedItemCount": 1,
+        "PlaybackPositionTicks": 0,
+        "PlayCount": 0,
+        "IsFavorite": false,
+        "Played": false,
+        "Key": "96911d3a-53fc-2ef5-c090-d5c3342da3ba002",
+        "ItemId": "9cd17aa6f1c7ab8d99c4612bd715036e"
+      },
+      "SeriesName": "Test Show",
+      "SeriesId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "PrimaryImageAspectRatio": 0.6666666666666666,
+      "SeriesPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "ImageTags": {},
+      "BackdropImageTags": [],
+      "LocationType": "FileSystem",
+      "MediaType": "Unknown"
+    }
+  ],
+  "TotalRecordCount": 3,
+  "StartIndex": 0
+}

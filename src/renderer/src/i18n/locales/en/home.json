@@ -1,0 +1,13 @@
+{
+  "recentActivityError": "Error fetching Recent Activity",
+  "topAnimeError": "Error fetching Top Animes",
+  "tagline": "A desktop anime list manager with media streaming capabilities.",
+  "continueWatching": "Continue Watching",
+  "airing": "Top Airing Anime",
+  "topAnime": "Top Anime",
+  "loading": "Loading...",
+  "airingError": "Failed to fetch Top Airing Anime: {{message}}",
+  "topAnimeFetchError": "Failed to fetch Top Anime: {{message}}",
+  "episodes": "{{count}} episodes",
+  "carouselStatus": "{{current}} of {{total}}"
+}

@@ -1,0 +1,43 @@
+{
+  "Items": [
+    {
+      "Name": "Second Wind",
+      "ServerId": "5e7a1c2f6b3d4e8f9a0b1c2d3e4f5a6b",
+      "Id": "8e3eb37e23d52fab204a86de91c14d0f",
+      "HasSubtitles": true,
+      "Container": "mkv",
+      "PremiereDate": "2015-01-08T00:00:00.0000000Z",
+      "ChannelId": null,
+      "RunTimeTicks": 3100210000,
+      "ProductionYear": 2015,
+      "IndexNumber": 2,
+      "ParentIndexNumber": 1,
+      "IsFolder": false,
+      "Type": "Episode",
+      "UserData": {
+        "PlayedPercentage": 32.255879440425005,
+        "PlaybackPositionTicks": 1000000000,
+        "PlayCount": 1,
+        "IsFavorite": false,
+        "LastPlayedDate": "2026-10-20T19:47:07.329839Z",
+        "Played": false,
+        "Key": "8e3eb37e-23d5-2fab-204a-86de91c14d0f",
+        "ItemId": "8e3eb37e23d52fab204a86de91c14d0f"
+      },
+      "SeriesName": "Test Show",
+      "SeriesId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "SeasonId": "c3fc5cb063c8abab69dfa41dc973ea8e",
+      "PrimaryImageAspectRatio": 0.6666666666666666,
+      "SeriesPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "SeasonName": "Season 1",
+      "VideoType": "VideoFile",
+      "ImageTags": {},
+      "ParentPrimaryImageItemId": "96911d3a53fc2ef5c090d5c3342da3ba",
+      "ParentPrimaryImageTag": "adbcdd74331733f6c2813f27c53e8160",
+      "LocationType": "FileSystem",
+      "MediaType": "Video"
+    }
+  ],
+  "TotalRecordCount": 1,
+  "StartIndex": 0
+}

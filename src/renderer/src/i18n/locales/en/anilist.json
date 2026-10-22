@@ -1,0 +1,17 @@
+{
+  "any": "Any",
+  "searchPlaceholder": "Search anime",
+  "year": "Year",
+  "genre": "GENRE",
+  "format": "FORMAT",
+  "season": "SEASON",
+  "status": "STATUS",
+  "sortBy": "SORT",
+  "myStatus": "WATCH STATUS",
+  "sort.POPULARITY_DESC": "Popularity",
+  "sort.SCORE_DESC": "Score",
+  "sort.TRENDING_DESC": "Trending",
+  "fetchError": "Failed to fetch Top Anime: {{message}}",
+  "notFoundTitle": "No anime found!",
+  "notFoundText": "Are you sure you've entered the right title?"
+}

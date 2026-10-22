@@ -1,0 +1,136 @@
+import { useInfiniteQuery } from '@tanstack/react-query'
+import { animepaheLatest } from '../utils'
+import { ExclamationTriangleIcon } from '@radix-ui/react-icons'
+import { useEffect, useState } from 'react'
+import { toast } from 'sonner'
+import { useNavigate } from 'react-router-dom'
+import AnimepaheEpisodeCard from '../components/AnimepaheEpisodeCard'
+import { Button, Code, Spinner } from '@radix-ui/themes'
+import InfiniteScroll from 'react-infinite-scroll-component'
+import NewReleaseCardSkeleton from '../../../skeletons/NewReleaseCardSkeleton'
+import AnimePaheSearchBar from '../components/AnimePaheSearchBar'
+import { t } from '../../../i18n'
+
+function AnimePahe() {
+  const [latestEps, setLatestEps] = useState([])
+  const navigate = useNavigate()
+
+  const {
+    data,
+    fetchNextPage,
+    hasNextPage,
+    isFetching,
+    error: infiniteQueryError
+  } = useInfiniteQuery({
+    queryKey: ['animepahe_latest'],
+    queryFn: ({ pageParam = 1 }) => animepaheLatest(pageParam),
+    initialPageParam: 1,
+    getNextPageParam: (lastPage, allPages) => {
+      return allPages.length + 1
+    },
+    staleTime: 1000 * 60 * 60, // 1 hour
+    gcTime: 1000 * 60 * 60 // 1 hour
+  })
+
+  useEffect(() => {
+    if (infiniteQueryError) {
+      toast.error(t('animePahe.fetchLatestError'), {
+        icon: <ExclamationTriangleIcon height="16" width="16" color="#ffffff" />,
+        description: infiniteQueryError?.message,
+        classNames: {
+          title: 'text-rose-500'
+        }
+      })
+    }
+  }, [infiniteQueryError])
+
+  useEffect(() => {
+    if (data) {
+      const newLatestEps = data.pages
+        .map((page) => page.data)
+        .flat()
+        .filter(Boolean)
+      setLatestEps(newLatestEps)
+    }
+  }, [data])
+
+  useEffect(() => {
+    if (data?.pages[0]?.error) {
+      toast.error(t('animePahe.refreshCookiesToast'), {
+        icon: <ExclamationTriangleIcon height="16" width="16" color="#ffffff" />,
+        description: data?.pages[0]?.error,
+        classNames: {
+          title: 'text-rose-500'
+        }
+      })
+    }
+  }, [data])
+
+  return (
+    <div className="h-full">
+      <div className="my-24 px-12">
+        {infiniteQueryError && (
+          <div className="text-red-500">
+            {t('animePahe.fetchFailed')} : {infiniteQueryError.message}
+          </div>
+        )}
+        {data?.pages[0]?.error && (
+          <div className="mx-5 my-4 w-4/6 rounded-md border border-rose-600 bg-[#1c1317] p-6 font-space-mono text-red-500">
+            {t('animePahe.cookiesHelpBefore')} <Code color="gray">{t('animePahe.cookiesHelpRestart')}</Code>{' '}
+            {t('animePahe.cookiesHelpAfter')}
+          </div>
+        )}
+        {/* {!infiniteQueryError && ( */}
+        {true && (
+          <>
+            <div className="mb-2 ml-5 border-b border-gray-700 pb-1 font-space-mono text-lg font-bold tracking-wider">
+              <div className="flex items-center gap-4">
+                <div>{t('animePahe.latestReleases')}</div>
+                <Button
+                  size={'1'}
+                  variant="soft"
+                  color="gray"
+                  onClick={() => window.api.openAnimePahe()}
+                >
+                  {t('animePahe.refreshCookies')}
+                </Button>
+              </div>
+            </div>
+            <InfiniteScroll
+              style={{ all: 'unset' }}
+              dataLength={latestEps.length}
+              next={() => fetchNextPage()}
+              hasMore={latestEps?.length < 500}
+              loader={
+                <div className="flex items-center justify-center gap-x-2 overflow-hidden">
+                  {/* <h4>Loading...</h4> */}
+                  {/* <Spinner /> */}
+                </div>
+              }
+            >
+              <div className="grid animate-fade grid-cols-4">
+                {latestEps?.map((anime) => {
+                  return <AnimepaheEpisodeCard key={anime.id + 'latestEps'} data={anime} />
+                })}
+                {isFetching && (
+                  <>
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                    <NewReleaseCardSkeleton />
+                  </>
+                )}
+              </div>
+            </InfiniteScroll>
+          </>
+        )}
+      </div>
+    </div>
+  )
+}
+
+export default AnimePahe

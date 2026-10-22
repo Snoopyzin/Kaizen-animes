@@ -1,0 +1,12 @@
+{
+  "fetchLatestError": "Error fetching Latest AnimePahe Episodes",
+  "refreshCookiesToast": "Refresh AnimePahe Cookies and refresh the page",
+  "fetchFailed": "Failed to fetch Top Anime",
+  "cookiesHelpBefore": "Refresh AnimePahe cookies using webview by clicking the button below, after animepahe loads completely close the webview and",
+  "cookiesHelpRestart": "restart",
+  "cookiesHelpAfter": "the app.",
+  "latestReleases": "Latest AnimePahe Releases:",
+  "refreshCookies": "Refresh AnimePahe Cookies",
+  "useWebview": "Click \"Refresh AnimePahe cookies\", wait for the website to load completely and close the window.",
+  "noCookies": "The AnimePahe cookies have not been created yet. Click \"Refresh AnimePahe cookies\"."
+}
